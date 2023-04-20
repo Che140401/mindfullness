@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .nav .close-btn-wrap {
+            display: none;
+        }
+
+        .grid-item,
+        .grid-sizer {
+            display: block;
+            float: left;
+            padding: 1.5rem;
+            width: 33.33%;
+
+        }
+
+        .grid-item img {
+            width: 100%;
+            display: block;
+
+        }
+
+
+
+        .grid-item--width3 {
+            width: 66.66%;
+
+        }
+    </style>
+    <title>Gallery Image</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="contact-header-wrap">
+                <div class="contact-left-box">
+                    <a href="#"><img src="img/Homepage-logo.png" alt=""></a>
+                </div>
+                <div class="contact-right-box">
+                    <div class="nav">
+                        <div class="close-btn-wrap">
+                            <button class="close-btn">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                        <ul>
+                            <li><a href="#">Speakers</a> </li>
+                            <li><a href="#">Testimonials</a> </li>
+                            <li><a href="#">Gallery</a> </li>
+                            <li><a href="#">About MSC</a> </li>
+                            <li><a href="#">Founder</a> </li>
+                            <li><a href="#">Tickets</a> </li>
+                            <li>
+                                <a href="#">
+                                    <button class="btn reg-btn">Register Now <i class="fa-solid fa-arrow-right"></i>
+                                    </button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <button class="menu-btn">
+                        <img src="img/mob-ham.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="gal-section">
+            <div class="container">
+                <h1 class="heading-01">Gallery</h1>
+                <div class="gal-btn-wrap mt-90">
+                    <a href="gallery-img.html" class="gal-btn active">Images</a>
+                    <a href="gallery-vid.html" class="gal-btn">Videos</a>
+                    <div class="dropdown-wrap">
+                        <button class="select">Summit 2020 <span class="arrow"></span></button>
+                        <ul class="dropdown">
+                            <li data-tab="tab1">Summit 2019</li>
+                            <li data-tab="tab2">Summit 2020</li>
+                            <li data-tab="tab3">Summit 2021</li>
+                            <li data-tab="tab4">Summit 2022</li>
+                        </ul>
+                    </div>
+                    <!-- <select name="" id="">
+                        <option value="summit2019">Summit 2019</option>
+                        <option value="summit2020" selected>Summit 2020</option>
+                        <option value="summit2021">Summit 2021</option>
+                    </select> -->
+                </div>
+                <div class="pt-75">
+                    <div class="gal-img-box grid-item--width1">
+                        <div class="gal-img " style="background-image: url(img/gallery-img-1.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-1.png" class="view-icon">View Image</a>
+                            
+                    </div>
+                    <div class="gal-img-box grid-item--width2">
+                        <div class="gal-img " style="background-image: url(img/gallery-img-2.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-2.png" class="view-icon">View Image</a>
+                       
+                    </div>
+                    <div class="gal-img-box grid-item--width1">
+                        <div class="gal-img " style="background-image: url(img/gallery-img-3.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-3.png" class="view-icon">View Image</a>
+                        
+                    </div>
+                    <div class="gal-img-box grid-item--width1">
+                        <div class="gal-img " style="background-image: url(img/gallery-img-4.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-4.png" class="view-icon">View Image</a>
+                        
+                    </div>
+                    <div class="gal-img-box grid-item--width1">
+                        <div class="gal-img " style="background-image: url(img/gallery-img-5.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-5.png" class="view-icon">View Image</a>
+                        
+                    </div>
+                    <div class="gal-img-box grid-item--width2">
+                        <div class="gal-img " style="background-image: url(img/gallery-img-6.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-6.png" class="view-icon">View Image</a>
+                        
+                    </div>
+                    <div class="gal-img-box grid-item--width1">
+                        <div class=" gal-img" style=" background-image: url(img/gallery-img-7.png);">
+                        </div>
+                        <a data-fancy-box href="img/gallery-img-7.png" class="view-icon">View Image</a>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+       
+        <!-- <script type="text/javascript" src="/fancybox/jquery.easing-1.4.pack.js"></script>
+        <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> -->
+
+    <script src="js/common.js"></script>
+    <script>
+
+
+
+        $(".menu-btn").click(function () {
+            $(".nav").addClass("active");
+        })
+
+        $(".close-btn").click(function () {
+            $(".nav").removeClass("active")
+        })
+
+        $(".select").click(function () {
+            $(".dropdown").toggleClass("active");
+        })
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

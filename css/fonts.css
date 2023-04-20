@@ -1,0 +1,357 @@
+/*
+
+@font-face {
+    font-family: 'hk_groteskblack';
+    src: url('../fonts/HK-Grotesk-Black/hkgrotesk-black.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Black/hkgrotesk-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: url('../fonts/HK-Grotesk-Bold/hkgrotesk-bold.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Bold/hkgrotesk-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskbold_italic';
+    src: url('../fonts/HK-Grotesk-Bold-Italic/hkgrotesk-bolditalic.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Bold-Italic/hkgrotesk-bolditalic.woff.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'hk_groteskextrabold';
+    src: url('../fonts/HK-Grotesk-Extra-Bold/hkgrotesk-extrabold.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Extra-Bold/hkgrotesk-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskitalic';
+    src: url('../fonts/HK-Grotesk-Italic/hkgrotesk-italic.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Italic/hkgrotesk-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesklight';
+    src: url('../fonts/HK-Grotesk-Light/hkgrotesk-light.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Light/hkgrotesk-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesklight_legacy';
+    src: url('../fonts/HK-Grotesk-Light-Legacy/hkgrotesk-lightlegacy.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Light-Legacy/hkgrotesk-lightlegacy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskmedium';
+    src: url('../fonts/HK-Grotesk-Medium/hkgrotesk-medium.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Medium/hkgrotesk-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskmedium_legacy';
+    src: url('../fonts/HK-Grotesk-Medium-Legacy/hkgrotesk-mediumlegacy.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Medium-Legacy/hkgrotesk-mediumlegacy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_groteskregular';
+    src: url('../fonts/HK-Grotesk-Regular/hkgrotesk-regular.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Regular/hkgrotesk-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesksemibold';
+    src: url('../fonts/HK-Grotesk-Semibold/hkgrotesk-semibold.woff2') format('woff2'),
+         url('../fonts/HK-Grotesk-Semibold/hkgrotesk-semibold.woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'hk_grotesk_wideblack';
+    src: url('../fonts/HK-Groteskwide-Black/hkgroteskwide-black.woff2') format('woff2'),
+         url('../fonts/HK-Groteskwide-Black/hkgroteskwide-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesk_widebold';
+    src: url('../fonts/HK-Groteskwide-Bold/hkgroteskwide-bold.woff2') format('woff2'),
+         url('../fonts/HK-Groteskwide-Bold/hkgroteskwide-bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+*/
+
+
+@font-face {
+    font-family: 'aktivgrotesk-black';
+    src: url('../fonts/aktivgrotesk-black.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-black-italic';
+    src: url('../fonts/aktivgrotesk-blackitalic.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-blackitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-bold';
+    src: url('../fonts/aktivgrotesk-bold.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-bold-italic';
+    src: url('../fonts/aktivgrotesk-bolditalic.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-bolditalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-hairline';
+    src: url('../fonts/aktivgrotesk-hairline.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-hairline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-light';
+    src: url('../fonts/aktivgrotesk-light.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-lightitalic';
+    src: url('../fonts/aktivgrotesk-lightitalic.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-medium';
+    src: url('../fonts/aktivgrotesk-medium.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-medium-italic';
+    src: url('../fonts/aktivgrotesk-mediumitalic.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-mediumitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-regular';
+    src: url('../fonts/aktivgrotesk-regular.woff2') format('woff2'),
+         url('../fonts/aktivgrotesk-regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesk_wideblack';
+    src: url('../fonts/hkgroteskwide-black.woff2') format('woff2'),
+         url('../fonts/hkgroteskwide-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hk_grotesk_wide-bold';
+    src: url('../fonts/hkgroteskwide-bold.woff2') format('woff2'),
+         url('../fonts/hkgroteskwide-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hkgroteskwide-extra-bold';
+    src: url('../fonts/hkgroteskwide-extrabold.woff2') format('woff2'),
+         url('../fonts/hkgroteskwide-extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hkgroteskwide-light';
+    src: url('../fonts/hkgroteskwide-light.woff2') format('woff2'),
+         url('../fonts/hkgroteskwide-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hkgroteskwide-medium';
+    src: url('../fonts/hkgroteskwide-medium.woff2') format('woff2'),
+         url('../fonts/hkgroteskwide-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hkgroteskwide-regular';
+    src: url('../fonts/hkgroteskwide-regular.woff2') format('woff2'),
+         url('../fonts/hkgroteskwide-regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'hkgroteskwide-semibold';
+    src: url('../fonts/hkgroteskwide-semibold.woff') format('woff2'),
+         url('../fonts/hkgroteskwide-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
